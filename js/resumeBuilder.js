@@ -10,9 +10,9 @@ var bio = {
     },
     "welcomeMessage": "Welcome! Now get off the desk and do 10 jumping jacks!",
     "skills": [
+        "front-end and full stack web development",
         "design and instruction of science courses",
-        "coaching of healthful living",
-        "front-end and full stack web development"
+        "microbiological research"
     ],
     "biopic": "http://i.imgur.com/5r0DB0H.jpg",
     displayBio: function() {
