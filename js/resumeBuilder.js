@@ -12,7 +12,7 @@ var bio = {
     "skills": [
         "design and instruction of science courses",
         "coaching of healthful living",
-        "front-end web development"
+        "front-end and full stack web development"
     ],
     "biopic": "http://i.imgur.com/5r0DB0H.jpg",
     displayBio: function() {
