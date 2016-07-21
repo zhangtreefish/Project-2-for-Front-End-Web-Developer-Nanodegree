@@ -5,6 +5,7 @@ var bio = {
         "phone": "210-479-2565",
         "email": "zhangtreefish@yahoo.com",
         "gitHub": "https://github.com/zhangtreefish",
+        "portfolio": "https://zhangtreefish.github.io/ng2-portfolio/",
         "twitter":"zhangtreefish",
         "location": "San Antonio"
     },
@@ -28,6 +29,9 @@ var bio = {
         var formattedGithub=HTMLgithub.replace(/%data%/g,bio.contacts.gitHub);
         $("#topContacts").append(formattedGithub);
         $("#footerContacts").append(formattedGithub);
+        var formattedPortfolio=HTMLportfolio.replace(/%data%/g,bio.contacts.portfolio);
+        $("#topContacts").append(formattedPortfolio);
+        $("#footerContacts").append(formattedPortfolio);
         var formattedEmail=HTMLemail.replace("%data%",bio.contacts.email);
         $("#topContacts").append(formattedEmail);
         $("#footerContacts").append(formattedEmail);
@@ -101,13 +105,13 @@ work.displayWork();
 
 var projects = {
     "projects": [
-        {
-            "title": "San Antonio Retirement Homes",
-            "dates": "2014-2015",
-            "description": "A retirement home application with interactive map and search list with KnockoutJS",
-            "image": "http://i.imgur.com/ztDG76q.jpg",
-            "url": "http://zhangtreefish.github.io/Project-5-for-Front-End-Web-Developer-Nanodegree"
-        },
+        // {
+        //     "title": "San Antonio Retirement Homes",
+        //     "dates": "2014-2015",
+        //     "description": "A retirement home application with interactive map and search list with KnockoutJS",
+        //     "image": "http://i.imgur.com/ztDG76q.jpg",
+        //     "url": "http://zhangtreefish.github.io/Project-5-for-Front-End-Web-Developer-Nanodegree"
+        // },
         {
             "title": "therapeutic foods",
             "dates": "2016-2016",
